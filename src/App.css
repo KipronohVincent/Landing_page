@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+.app {
+    width : 1440px; 
+    height : 2500px;     
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_cont {
+display: flex;
+flex-direction: column;
+width: 100%;
+height:100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app_head {
+    display : flex;
+    background-image: url(../public/images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: fit;
+    width: 100%;
+    height: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    filter: brightness(100%);
+} 
+
+.app_headdiv {
+margin: auto;
+display : flex;
+flex-direction: column;
+justify-content: space-between;
+width: 70%;
+height : 90%;
+}
+.app_top {
+display: flex;
+flex-direction : row;
+justify-content: space-between;
+color: hsl(0, 0%, 100%);
+filter: brightness(100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app_headdivspan{
+    display : flex;
+    justify-content: space-between;
+    width: 40%;
+}
+ 
+.app_bottom{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    border: 1px white solid;
+    padding: 20px 40px 20px 20px;
+    margin-bottom: 130px;
+    width: max-content;
+    filter: brightness(200%);
+    letter-spacing: 1.15px;
+}
+.size {
+    font-size: 50px; 
 }
 
-.App-link {
-  color: #61dafb;
+.body {
+    width: 70%;
+    margin: auto;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bodyA {
+    background-image: url('../public/images/desktop/image-interactive.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh; 
+}
+
+
+.bodyOne {
+    height: 100%;
+    width: 100%;
+    flex: 0.3;    
+}
+
+
+
+.body_A_new {
+    margin-left: 43.5%;
+    width: 60%;
+    height: 100%;
+}
+
+.one {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+     
+
+}
+.bodyB{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+}
+
+.the_two {
+margin : 13% 0% 0px 14%;
+width: 67%;
+height : 100%; 
+
+}
+
+.the_two > h2 {
+    font-weight : lighter;
+    font-family: 'Josefin Sans', sans-serif; 
+    margin-bottom:20px;
+    font-size: 30px;
+
+}
+.the_two>p{
+    font-weight: lighter;
+    opacity: .45;
+}
+.grid_one{
+    height:50%;
+    width:100%
+
+}
+.grid_two {
+    display: flex;
+    height: 50px;
+    width: 107.5%;
+    justify-content: space-between;
+    
+}
+
+.grid_two>h2{
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    opacity: 0.6;
+    letter-spacing: 1.08px;
+}
+  
+.grid_two>h4 {
+    font-family: 'Alata', sans-serif;
+    border: 1.5px solid gray;
+    width: 150px;
+    height:30px;
+    text-align: center;
+    padding-top: 7px;
+    color: gray;
+   
+}
+ .grid_three {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 20px;
+    margin-top: 40px;
+ }
+
+  .footerClass {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 10%; 
+}
+
+.footerClass_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerClass_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opac {
+    opacity: 0.5;
+}
+
+.footerClass_left {
+    justify-content: space-between;
+    width: 30%;
+    display: flex;
+}
+
+.footerMain {
+    width: 70%;
+    margin: auto;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.footerClass_right {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: large;
 }
