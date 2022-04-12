@@ -6,7 +6,7 @@
 
 ## Thanks for checking out this Loopstudios landing page.
 
-- This is my first challenge from [Frontend Mentor](https://www.frontendmentor.io) the challenges helped me to improve my coding skills by building this realistic project. 
+- This is my first challenge from [Frontend Mentor](https://www.frontendmentor.io) the challenge helped me to improve my coding skills by building this realistic project. 
 
 ## The challenge
 
